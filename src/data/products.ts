@@ -182,6 +182,9 @@ const generateProducts = (): Product[] => {
         const hasDiscount = Math.random() < 0.3; // 30% chance of discount
         const discount = hasDiscount ? Math.floor(Math.random() * 30) + 5 : undefined; // 5-35% discount
         const originalPrice = hasDiscount ? Math.round(price / (1 - (discount! / 100))) : undefined;
+        )
+        )
+        )
         
         const brands = ['Fresh Farm', 'Organic Valley', 'Nature\'s Best', 'Premium Choice', 'Daily Fresh', 'Green Harvest', 'Pure & Natural', 'Farm Direct'];
         const brand = brands[Math.floor(Math.random() * brands.length)];
